@@ -2,19 +2,19 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle googlesearch'
-      'command': 'googlesearch:google-it'
+      'label': 'Toggle sogosearch'
+      'command': 'sogosearch:sogo-it'
     }
   ]
 'menu': [
   {
     'label': 'My Packages'
     'submenu': [
-      'label': 'Google Search'
+      'label': 'Sogo Search'
       'submenu': [
         {
           'label': 'Search'
-          'command': 'googlesearch:google-it'
+          'command': 'sogosearch:sogo-it'
         }
       ]
     ]

@@ -2,7 +2,7 @@ Shell = require 'shell'
 
 module.exports =
   activate: ->
-    atom.commands.add 'atom-workspace', 'googlesearch:google-it': => @search()
+    atom.commands.add 'atom-workspace', 'sogosearch:sogo-it': => @search()
 
   search: ->
     editor = atom.workspace.getActiveTextEditor()
@@ -12,5 +12,5 @@ module.exports =
     buffer.transact ->
       for selection in selections
         cased = selection.getText()
-        url = "https://encrypted.google.com/search?q=#{cased}&oq=#{cased}"
+        url = "https://www.sogou.com/web?query=#{cased}"
         Shell.openExternal url

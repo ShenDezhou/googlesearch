@@ -1,13 +1,13 @@
 {
-  "name": "googlesearch",
+  "name": "sogosearch",
   "main": "./lib/googlesearch",
   "version": "1.5.0",
-  "description": "Search Highlighted word in google",
+  "description": "Search Highlighted word in sogo",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "googlesearch:google-it"
+    "atom-workspace": "sogosearch:sogo-it"
   },
-  "repository": "https://github.com/jigarmistry/googlesearch",
+  "repository": "https://github.com/shendezhou/googlesearch",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
